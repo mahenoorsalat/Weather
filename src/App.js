@@ -59,7 +59,7 @@ const formattedDate = `${month} ${date} , ${year}`
 const getWeatherURL = (main) =>{
   switch (main){
     case "Clouds" :
-      return process.env.PUBLIC_URL + "/thunder.png";
+      return process.env.PUBLIC_URL + "/Thunder.png";
     case "Rain" :
       return process.env.PUBLIC_URL + "/rain.png";
     case "Mist" :
